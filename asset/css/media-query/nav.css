@@ -1,0 +1,49 @@
+@media only screen and (max-width: 700px) {
+  .links {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .links li {
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0;
+  }
+
+  .links li:hover a {
+    transition: all 0.4s ease-in-out;
+    color: #bfba55;
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  nav {
+    display: block;
+    padding: 2rem 1rem;
+  }
+
+  .toggle button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .toggle button:hover {
+    transition: all 0.4s ease-in-out;
+    color: #bfba55;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .show-nav {
+    display: none;
+  }
+
+}
