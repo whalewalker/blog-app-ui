@@ -21,7 +21,7 @@ a{
 .blog-post .img-container img{
     width:100%;
 }
-.user-profile{
+.user-profile, .commentator-img{
     width: 70px;
     border-radius: 50%;
 }
@@ -117,6 +117,6 @@ a{
 
 .diff{
     width: 50%;
-    height: 2px;
-    background-color: rgb(212, 211, 211);
+    height: 1.8px;
+    background-color: rgb(243, 236, 236);
 }

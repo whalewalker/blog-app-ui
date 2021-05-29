@@ -7,7 +7,6 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    cursor: pointer;
     font-size: 1rem;
 }
 
@@ -15,3 +14,26 @@
     --header-font: 'Merriweather', serif;
     --text-font: 'Lora', serif;
 }
+
+.go-top {
+    background-color: #ffffff;
+    box-shadow: 1px 1.732px 12px 0px rgb(0 0 0 / 14%), 1px 1.732px 3px 0px rgb(0 0 0 / 12%);
+    transition: all 1s ease;
+    bottom: 2em;
+    right: 2em;
+    color: #333;
+    font-size: 24px;
+    display: none;
+    position: fixed;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.go-top i{
+    font-size: 1.2rem;
+}
+
