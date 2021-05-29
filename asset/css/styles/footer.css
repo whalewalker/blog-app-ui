@@ -68,9 +68,11 @@ footer p{
 .media button:hover{
     border-color: #bfba55;
     transition: all 0.4s ease-in-out;
+    transform: scale(1.1);
 }
 
 .media button:hover a {
     color: #bfba55;
+    transform: scale(1.1);
 }
 

@@ -1,7 +1,11 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
   .links {
     flex-direction: column;
     justify-content: center;
+  }
+
+  nav h1{
+    font-size: 1.5rem;
   }
 
   .links li {
@@ -27,8 +31,11 @@
   .toggle button {
     background-color: transparent;
     border: none;
-    font-size: 1.5rem;
     cursor: pointer;
+  }
+
+  .toggle button i{
+    font-size: 1.7rem;
   }
 
   .toggle button:hover {
